@@ -65,7 +65,7 @@ The goal is to ensure regular, reliable backups with minimal manual effort — a
 
 ### 🖥️ Connect to EC2 via SSH
 
-    sh -i "your-key.pem" ec2-user@<EC2-PUBLIC-IP>
+    ssh -i "your-key.pem" ec2-user@<EC2-PUBLIC-IP>
 
 ### 🛠️ Install Apache (Amazon Linux 2)
 
